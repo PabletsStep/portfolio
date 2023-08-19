@@ -151,6 +151,10 @@ body {
         font-size: 1.3rem;
     }
 
+    .apresentacao__imagem {
+        width: 70%;
+    }
+
     .rodape__texto {
         width: auto;
         font-size: 1.3rem;
