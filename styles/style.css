@@ -139,7 +139,7 @@ body {
     }
 
     .cabecalho__menu__link {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao {
@@ -156,7 +156,7 @@ body {
         font-size: 1.25rem;
     }
     .apresentacao__conteudo__subtitulo {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao__conteudo {
@@ -164,7 +164,16 @@ body {
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .apresentacao__links__navegacao {
+        font-size: 1.2rem
+    }
+
+    .apresentacao__links__navegacao__icone {
+        width: 23px;
+        height: 23px;
     }
 
     .apresentacao__imagem {
@@ -173,6 +182,6 @@ body {
 
     .rodape__texto {
         width: auto;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
