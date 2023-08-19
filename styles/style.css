@@ -134,14 +134,16 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
+        gap: 50px;
     }
 
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
+        align-items: center;
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
 }
