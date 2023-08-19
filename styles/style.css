@@ -76,6 +76,7 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+    list-style-position: inside;
 }
 
 .apresentacao__links {
@@ -134,7 +135,11 @@ body {
 
     .cabecalho__menu {
         justify-content: center;
-        gap: 50px;
+        gap: 20px;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1rem;
     }
 
     .apresentacao {
@@ -143,20 +148,31 @@ body {
         align-items: center;
     }
 
+    .apresentacao__conteudo__titulo {
+        font-size: 1.75rem;
+    }
+
+    .apresentacao__conteudo__certificados {
+        font-size: 1.25rem;
+    }
+    .apresentacao__conteudo__subtitulo {
+        font-size: 1rem;
+    }
+
     .apresentacao__conteudo {
         width: auto;
     }
 
     .apresentacao__conteudo__texto {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .apresentacao__imagem {
-        width: 70%;
+        width: 90%;
     }
 
     .rodape__texto {
         width: auto;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
