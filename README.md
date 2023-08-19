@@ -16,7 +16,7 @@ Link para acesso:
 ## :rocket: Rodando o projeto
 Para rodar o repositório é apenas necessário clonar o mesmo.
 ```
-git clone https://github.com/PabletsStep/CurriculoHtml.git
+git clone https://github.com/PabletsStep/portfolio.git
 ```
 ## :soon: Implementação futura
 * Dinamização da página em Javascript
