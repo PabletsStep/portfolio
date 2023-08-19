@@ -42,7 +42,7 @@ body {
 .apresentacao {
     padding: 5% 15%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 82px;
 }
@@ -56,6 +56,16 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 1.75rem;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao__conteudo__certificados {
+    font-size: 1.5rem;
     font-family: var(--fonte-primaria);
 }
 
@@ -94,7 +104,7 @@ body {
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
 
@@ -104,6 +114,7 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
+    border-radius: 20px;
 }
 
 .rodape {
