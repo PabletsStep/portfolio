@@ -118,6 +118,25 @@ body {
     border-radius: 20px;
 }
 
+.apresentacao__imagem__portfolio {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--cor-hover);
+    border-radius: 20px;
+}
+
+.iframe__freeway {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.iframe__pong {
+    width: 600px;
+    height: 450px;
+    border-radius: 20px;
+}
+
 .rodape {
     padding: 24px;
     color: var(--cor-primaria);
@@ -178,6 +197,14 @@ body {
 
     .apresentacao__imagem {
         width: 90%;
+    }
+    
+    .iframe__freeway {
+        width: 100%;
+    }
+    
+    .iframe__pong {
+        width: 100%;
     }
 
     .rodape__texto {
