@@ -79,6 +79,19 @@ body {
     list-style-position: inside;
 }
 
+.apresentacao__conteudo__texto__link {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__texto__link:visited {
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__texto__link:hover {
+    color: var(--cor-hover);
+}
+
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
